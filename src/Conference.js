@@ -10,6 +10,7 @@ const Conference = ({conference}) => {
             <h3>Speakers</h3>
              {conference.speakers.map(speaker => (<ul key={speaker}>{speaker}</ul>))}
             </ul>
+            
         </div>
     )
 }
